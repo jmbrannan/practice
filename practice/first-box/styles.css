@@ -1,0 +1,30 @@
+/* CSS Practice: Padding, Border, and Margin */
+
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.text {
+    color: darkslategrey;
+    font-size: 36px;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 7.5px whitesmoke;
+
+}
+
+.box-one {
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid darkslategray;
+    /* vertical | horizontal */
+    margin: 0px auto;
+    /* 1st method for vertically centering text (http://phrogz.net/CSS/vertical-align/index.html) */
+    line-height: 200px;
+}
